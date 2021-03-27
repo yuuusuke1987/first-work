@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    text-size-adjust: 100%;
+    overflow-x: hidden;
+    color: rgb(255, 255, 255);
+    font: 300 14px / 1.9 "Noto Sans JP", Arial, Verdana, 游ゴシック, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
+    background: rgb(0, 0, 0);
+}
+
+.contents li{
+    list-style: none;
+    margin-bottom: 24px;
+}
+
+.contents li a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Modern Antiqua', 'Noto Sans JP',serif;
+    font-size: 14px;
+}
+
+
+.sidebar img{
+    height: 22.4px;
+    width: 88px;
+    margin: 28px 0 46px 0;
+}
+
+
+
+.icon li{
+    list-style: none;
+    float: left;
+    margin: 40px 14px 0 0;
+}
+
+.icon i{
+    color: white;
+}
+
+.side-contents{
+    margin-left: 16%;
+}
+
+.sidebar{
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    right: 0;
+    list-style: none;
+}
+
+.main{
+    width: 80%;
+}
+
+.main img {
+    width: 100%;
+
+}
+
+.main-message{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.tytle{
+    font-size: 22px;
+    font-family: 'Modern Antiqua', 'Noto Sans JP',serif;;
+    padding: 84px 0 24px 0;
+    border-bottom: 3px solid white ;
+    text-align: center;
+    display: inline-block;
+}
+
+.main-message p{
+    width: 70%;
+    margin: 50px auto;
+    text-align: left;
+}
+
+img{
+    vertical-align: bottom;
+}
+
+.photo img{
+    width: 33.3333333%;
+}
+span .big-photo{
+    width: 100%;
+}
+.BRAND-wrapper{
+    text-align: center;
+   
+    
+}
+
+.branding-wrapper{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.brand{
+    width: 25%;
+    margin:50px 0;
+    padding: 0 25px;
+    border-bottom: white;
+}
+
+.brand img{
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.brand p{
+    font-size: 90%;
+    text-align: left;
+    
+}
+
+.PROJECT{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 60px;
+    border-bottom: white;
+}
+
+.PROJECT-wrapper{
+    display: flex;
+    margin-top: 60px;
+}
+
+.PROJECT-wrapper img{
+    width: 376px;
+    height: 226px;
+}
+
+.PROJECT-wrapper p{
+    text-align: left;
+    margin-left: 30px;
+}
+
+.map{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.map-wrapper {
+    display: flex;
+    margin-top: 70px;
+    margin-bottom: 200px;
+}
+
+.map-wrapper p{
+    text-align: left;
+    margin-right: 10%;
+}
+
+.ggmap{
+    width: 60%;
+    background-color: pink;
+    position: relative;
+}
+
+iframe{
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100%;
+
+}
+
+footer{
+    width: 80%;
+    text-align: center;
+    margin-bottom: 80px;
+}
